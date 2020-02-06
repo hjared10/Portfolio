@@ -1,0 +1,24 @@
+#navbarDropdown {
+    color: white;
+}
+#intro {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #here{
+      text-align: center;
+  }
+
+  #day{
+      margin: 1em;
+      width:100%
+  }
+  #quiz{
+    margin: 1em;
+      width:100%;
+  }
