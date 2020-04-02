@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang=eng>
     <head>
 
@@ -15,6 +15,15 @@
    <script src="script.js"></script>
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+   <style>
+     #dev {
+       width: auto
+     }
+     #jquiz {
+       width:auto
+     }
+   </style>
 
     </head>
     <body>
@@ -47,29 +56,60 @@
             <p class="lead"></p>
             <h4 id='here'>Here is some of my work:</h4>
             
+          </div>
+          <div class="card">
+              <div class="container">
+                <h4><b>Accessible calendar</b></h4>
+                
+                <p>Intended to be a calendar app for a variety of people.  It gives verbal alerts about upcoming events.<br />Developed as a team.  It isnt a hundred percent functional, but was a great learning experience.</p>
+              </div>
+              <img src="./calimg.PNG" alt="Accessible Calendar" class='center'>
+            </div>
+
         </div>
         <div class="card">
-            <img src="./prooneimg.PNG" alt="Game of the Rings" style='width:40%' class='center'>
+            
             <div class="container">
               <h4><b>Game of the Rings</b></h4>
               <p>A short story generator with some random elements and a lot of adventure. <br />  In a collaborative effort, I was resonsible for back-end development, api functionality and random generation.</p>
             </div>
+            <img src="./prooneimg.PNG" alt="Game of the Rings" style='width:40%' class='center'>
+          </div>
+
+          <div class="card" id='operate'>
+            
+            <div class="container">
+              <h4><b>Management System</b></h4>
+              <p>This is a database manager for MYSQL.  It allows CRUD as well as a variety of ways to organize and edit information.  Fully devloped by me.</p>
+            </div>
+            <img src="./opimg.PNG" alt="Database Manager" class='center'>
+          </div>
+
+          <div class="card" id='reedeemer'>
+            
+            <div class="container">
+              <h4><b>Dragon Designer</b></h4>
+              <p>This is a fun little project designed to show the basics of express.</p>
+            </div>
+            <img src="./dragonimg.PNG" alt="Weather App" class='center'>
           </div>
 
           <div class="card" id='day'>
-            <img src="./day.PNG" alt="Weather App" class='center'>
+            
             <div class="container">
-              <h4><b>Dayplanner</b></h4>
-              <p>This is a simple calendar/to do list that keeps track of tasks and the time.  Fully developed by me.</p>
+              <h4><b>Developer Profiler</b></h4>
+              <p>A profile generator in node that takes input from the user, makes calls to github and creates a pdf developer profile.</p>
             </div>
+            <img src="./genimg.PNG" alt="Profile Generator" class='center' width="auto" id="dev">
           </div>
 
           <div class="card"  id='quiz'>
-            <img src="./quiz.PNG" alt="Javaquiz" class='center'>
+            
             <div class="container">
               <h4><b>Javaquiz</b></h4>
               <p>Three multiple choice quizes about various topics.  Has a time limit and a scoring system that saves high scores to the client side machine.  Intentionally made incredably difficult.<br />  If you can beat this, you have my respect.<br />  Also fully developed by me.</p>
             </div>
+            <img src="./quiz.PNG" alt="Javaquiz" class='center' id='jquiz'>
           </div>
 
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
